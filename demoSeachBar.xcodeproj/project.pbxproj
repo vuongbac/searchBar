@@ -15,6 +15,8 @@
 		982470D4258087CE005F7A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982470D2258087CE005F7A42 /* LaunchScreen.storyboard */; };
 		982470DF258087CF005F7A42 /* demoSeachBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982470DE258087CF005F7A42 /* demoSeachBarTests.swift */; };
 		982470EA258087CF005F7A42 /* demoSeachBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982470E9258087CF005F7A42 /* demoSeachBarUITests.swift */; };
+		9824710625808A43005F7A42 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824710425808A43005F7A42 /* TableViewCell.swift */; };
+		9824710725808A43005F7A42 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9824710525808A43005F7A42 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		982470E5258087CF005F7A42 /* demoSeachBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoSeachBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		982470E9258087CF005F7A42 /* demoSeachBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoSeachBarUITests.swift; sourceTree = "<group>"; };
 		982470EB258087CF005F7A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9824710425808A43005F7A42 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9824710525808A43005F7A42 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				982470D0258087CE005F7A42 /* Assets.xcassets */,
 				982470D2258087CE005F7A42 /* LaunchScreen.storyboard */,
 				982470D5258087CE005F7A42 /* Info.plist */,
+				9824710425808A43005F7A42 /* TableViewCell.swift */,
+				9824710525808A43005F7A42 /* TableViewCell.xib */,
 			);
 			path = demoSeachBar;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982470D4258087CE005F7A42 /* LaunchScreen.storyboard in Resources */,
+				9824710725808A43005F7A42 /* TableViewCell.xib in Resources */,
 				982470D1258087CE005F7A42 /* Assets.xcassets in Resources */,
 				982470CF258087CA005F7A42 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982470CC258087CA005F7A42 /* ViewController.swift in Sources */,
+				9824710625808A43005F7A42 /* TableViewCell.swift in Sources */,
 				982470C8258087CA005F7A42 /* AppDelegate.swift in Sources */,
 				982470CA258087CA005F7A42 /* SceneDelegate.swift in Sources */,
 			);
